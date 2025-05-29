@@ -2,64 +2,71 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pisane z lekkością</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #fff8f6;
-            color: #4e3b31;
-        }
-        header {
-            background-color: #fddde6;
-            padding: 20px;
-            text-align: center;
-        }
-        header img {
-            max-height: 80px;
-        }
-        nav {
-            margin-top: 10px;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #7d5a50;
-            font-weight: bold;
-        }
-        .hero {
-            padding: 60px 20px;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .hero p {
-            font-size: 1.2em;
-            color: #7d5a50;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
     <header>
-        <img src="logo.png" alt="Logo Pisane z lekkością">
+        <h1>Pisane z lekkością</h1>
         <nav>
-            <a href="#o-mnie">O mnie</a>
-            <a href="#oferta">Oferta</a>
-            <a href="#opinie">Opinie</a>
-            <a href="#galeria">Galeria</a>
-            <a href="#kontakt">Kontakt</a>
+            <ul>
+                <li><a href="#o-mnie">O mnie</a></li>
+                <li><a href="#oferta">Oferta</a></li>
+                <li><a href="#opinie">Opinie</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>Witaj na stronie Pisane z lekkością!</h1>
-        <p>Tworzę wyjątkowe chwile i słowa z duszą. Organizuję wydarzenia i piszę na każdą okazję.</p>
+    <section id="hero">
+        <h2>Tworzę wyjątkowe chwile i słowa z duszą</h2>
+        <p>Organizuję wydarzenia i piszę na każdą okazję</p>
     </section>
 
+    <section id="o-mnie">
+        <h2>O mnie</h2>
+        <p>Nazywam się Patrycja i uwielbiam tworzyć piękne rzeczy – zarówno wizualnie jak i słownie. Organizuję wydarzenia oraz piszę teksty z lekkością i pasją, które zapadają w pamięć.</p>
+    </section>
+
+    <section id="oferta">
+        <h2>Oferta</h2>
+        <ul>
+            <li>Organizacja imprez: wieczory panieńskie, kawalerskie, baby shower, urodziny, spotkania rodzinne</li>
+            <li>Teksty: zaproszenia, przemowy, wiersze, bileciki, dedykacje, dyplomy</li>
+            <li>Pomoc w organizacji kalendarza spotkań</li>
+        </ul>
+    </section>
+
+    <section id="opinie">
+        <h2>Opinie</h2>
+        <blockquote>"Współpraca z Patrycją to czysta przyjemność! Wszystko było dopięte na ostatni guzik." – Anna</blockquote>
+        <blockquote>"Tekst na zaproszeniu wzruszył wszystkich gości. Polecam z całego serca!" – Kasia</blockquote>
+        <blovkquote>"Pisane z lekkością to był strzał w 10. Cała organizacja wieczoru panieńskiego wyszła super. Zero stresu i nerwów"-Jagoda Walczyk</blovkquote>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <p>Galeria zdjęć pojawi się już wkrótce!</p>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>📞 <a href="tel:536332984">536-332-984</a></p>
+        <p>📧 <a href="mailto:prostopomagam@gmail.com">prostopomagam@gmail.com</a></p>
+        <p>📸 <a href="https://www.instagram.com/pisane_z_lekkoscia_eventy/" target="_blank">Instagram</a></p>
+        <form action="https://formsubmit.co/prostopomagam@gmail.com" method="POST">
+            <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required />
+            <input type="email" name="Email" placeholder="Twój email" required />
+            <textarea name="Wiadomość" placeholder="W czym mogę pomóc?" required></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pisane z lekkością</p>
+    </footer>
 </body>
 </html>
