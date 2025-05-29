@@ -196,3 +196,40 @@ footer {
     margin-bottom: 1em;
     font-size: 1.1em;
 }
+#kalendarz {
+    padding: 40px 20px;
+    background-color: #fff6fb;
+}
+
+#kalendarz h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #c55ea1;
+}
+
+#kalendarz p {
+    margin-bottom: 20px;
+}
+
+#kalendarz form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#kalendarz input,
+#kalendarz textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+#kalendarz button {
+    padding: 10px;
+    background-color: #c55ea1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
