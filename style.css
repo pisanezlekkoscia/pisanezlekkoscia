@@ -233,3 +233,25 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
+.welcome-banner {
+    background: linear-gradient(to right, #ffd4ec, #fbe8f3);
+    color: #7c2264;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Georgia', cursive;
+    animation: fadeSlide 2s ease-in-out;
+    border-bottom: 1px solid #e7a9cc;
+}
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
