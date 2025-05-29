@@ -53,6 +53,19 @@ section#kontakt a {
     color: #a75d67;
 }
 
+.button {
+    display: inline-block;
+    background-color: #f4c2c2; /* pastelowy róż */
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.button:hover {
+    background-color: #f9d5d5;
+}
 form input,
 form textarea {
     display: block;
@@ -104,16 +117,4 @@ footer {
     transform: scale(1.05);
 }
 
-.button {
-    display: inline-block;
-    background-color: #f4c2c2; /* pastelowy róż */
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 10px;
-}
-.button:hover {
-    background-color: #f9d5d5;
-}
+
