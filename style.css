@@ -117,4 +117,13 @@ footer {
     transform: scale(1.05);
 }
 
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
+.logo-container img {
+    max-width: 250px;
+    height: auto;
+}
