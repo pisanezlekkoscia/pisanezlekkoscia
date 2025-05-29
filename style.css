@@ -174,3 +174,25 @@ footer {
     font-weight: bold;
     cursor: pointer;
 }
+#aktualnosci {
+    background-color: #fff7f9;
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #f3cfe1;
+}
+
+#aktualnosci h2 {
+    color: #c86b9b;
+    margin-bottom: 1em;
+}
+
+.aktualnosci-lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+.aktualnosci-lista li {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
