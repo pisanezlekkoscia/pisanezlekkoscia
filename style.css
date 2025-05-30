@@ -464,3 +464,49 @@ footer {
 #formularz-opinii button:hover {
   background-color: #cc6ea9;
 }
+#newsletter {
+  background-color: #fff3f9;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px dashed #f3cde8;
+}
+
+#newsletter h2 {
+  color: #c55ea1;
+  margin-bottom: 10px;
+}
+
+#newsletter p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+#newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#newsletter input {
+  padding: 12px;
+  border: 1px solid #ffcce0;
+  border-radius: 6px;
+  background-color: #fffafc;
+  font-family: inherit;
+}
+
+#newsletter button {
+  background-color: #e38abf;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#newsletter button:hover {
+  background-color: #cc6ea9;
+}
