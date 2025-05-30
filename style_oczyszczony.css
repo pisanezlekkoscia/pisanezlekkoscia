@@ -469,3 +469,49 @@ footer {
   margin-bottom: 10px;
   color: #c55ea1;
 }
+#formularz-opinii {
+  background-color: #fff0f7;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#formularz-opinii h2 {
+  color: #c55ea1;
+  margin-bottom: 10px;
+}
+
+#formularz-opinii p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+#formularz-opinii form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#formularz-opinii input,
+#formularz-opinii textarea {
+  padding: 12px;
+  border: 1px solid #ffcce0;
+  border-radius: 6px;
+  font-family: inherit;
+  background-color: #fffafc;
+}
+
+#formularz-opinii button {
+  background-color: #e38abf;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#formularz-opinii button:hover {
+  background-color: #cc6ea9;
+}
