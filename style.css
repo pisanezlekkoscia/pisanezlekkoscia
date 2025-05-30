@@ -1,12 +1,11 @@
 
 /* style.css */
 
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #fffafc;
-    color: #5c4b51;
-    line-height: 1.6;
+  body {
+  background-color: #f4f0fa; /* delikatny lawendowy */
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
 header {
