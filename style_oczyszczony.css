@@ -354,3 +354,40 @@ footer {
   padding: 1em;
   margin-top: 2em;
 }
+#jak-dzialam {
+  background-color: #fff7fb;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+#jak-dzialam h2 {
+  text-align: center;
+  color: #c55ea1;
+  margin-bottom: 30px;
+}
+
+.etapy-wspolpracy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.etap {
+  background-color: #fff0f6;
+  border: 1px solid #f4cce0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.etap:hover {
+  transform: scale(1.02);
+}
+
+.etap h3 {
+  color: #d04a89;
+  margin-bottom: 10px;
+}
