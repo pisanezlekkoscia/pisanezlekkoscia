@@ -19,52 +19,53 @@
                 <li><a href="#oferta">Oferta</a></li>
                 <li><a href="#opinie">Opinie</a></li>
                 <li><a href="#galeria">Galeria</a></li>
-                <li class="dropdown">
-                    <a href="#">Cennik</a>
-                    <ul class="dropdown-content">
-                        <li><a href="cennik-wydarzenia.pdf" target="_blank">Organizacja wydarzeń</a></li>
-                        <li><a href="cennik-wieczor.pdf" target="_blank">Wieczór panieński / kawalerski</a></li>
-                        <li><a href="cennik-jubileusz.pdf" target="_blank">Spotkania rodzinne / jubileusze</a></li>
-                        <li><a href="cennik-teksty.pdf" target="_blank">Teksty z duszą</a></li>
-                        <li><a href="cennik-kalendarz.pdf" target="_blank">Kalendarz spotkań</a></li>
-                        <li><a href="cennik-biznesowy.pdf" target="_blank">Pakiet biznesowy</a></li>
-                    </ul>
-                </li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="#kalendarz">Kalendarz</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
             </ul>
-            <a href="brief.html" class="button">Wypełnij brief online</a>
         </nav>
-        <div class="welcome-banner">
-            🎀 Witaj w świecie pięknych słów i wyjątkowych chwil!
-        </div>
+        <div class="welcome-banner">🎀 Witaj w świecie pięknych słów i wyjątkowych chwil!</div>
     </header>
 
-    <section id="jak-dzialam">
-      <h2>Jak działam?</h2>
-      <div class="etapy-wspolpracy">
-        <div class="etap">
-          <h3>📞 1. Kontakt</h3>
-          <p>Wypełnij formularz lub brief, napisz do mnie maila lub zadzwoń. Ustalimy, czego potrzebujesz.</p>
+    <section id="oferta">
+        <h2>Oferta</h2>
+        <ul>
+            <li>🎉 Organizacja imprez: wieczory panieńskie, baby shower, urodziny, spotkania rodzinne</li>
+            <li>✍️ Teksty: zaproszenia, przemowy, wiersze, bileciki, dedykacje, dyplomy</li>
+            <li>📅 Pomoc w organizacji kalendarza spotkań</li>
+        </ul>
+    </section>
+
+    <section id="opinie">
+        <h2>Opinie</h2>
+        <div class="opinie-grid">
+            <div class="opinia">
+                <img src="images/klientka1.jpg" alt="Anna" />
+                <blockquote>„Współpraca z Patrycją to czysta przyjemność! Wszystko dopięte na ostatni guzik.”</blockquote>
+                <p class="klientka">– Anna</p>
+            </div>
+            <div class="opinia">
+                <img src="images/klientka2.jpg" alt="Kasia" />
+                <blockquote>„Tekst na zaproszeniu wzruszył wszystkich gości. Polecam z całego serca!”</blockquote>
+                <p class="klientka">– Kasia</p>
+            </div>
         </div>
-        <div class="etap">
-          <h3>✍️ 2. Ustalenia</h3>
-          <p>Otrzymasz ode mnie pytania lub prosty brief. Po jego analizie zaproponuję rozwiązania i wycenę.</p>
+    </section>
+
+    <section id="faq">
+        <h2>❓ FAQ – Najczęstsze pytania</h2>
+        <div class="faq-item">
+            <h3>Czy mogę zamówić tylko tekst bez wydarzenia?</h3>
+            <p>Oczywiście! Tworzę także same teksty – przemowy, zaproszenia, wiersze – bez konieczności organizacji wydarzenia.</p>
         </div>
-        <div class="etap">
-          <h3>🎁 3. Realizacja</h3>
-          <p>Zaczynam działać! W zależności od usługi: organizuję, piszę, tworzę, zamawiam. Jesteś na bieżąco!</p>
+        <div class="faq-item">
+            <h3>Jak wcześnie muszę się zgłosić?</h3>
+            <p>Najlepiej min. 2 tygodnie przed planowaną datą, ale przy mniejszych zleceniach – nawet szybciej!</p>
         </div>
-        <div class="etap">
-          <h3>✅ 4. Finalizacja</h3>
-          <p>Przekazuję Ci gotowy efekt – teksty, plan wydarzenia, dekoracje lub pełną realizację. Ty tylko się cieszysz!</p>
-        </div>
-      </div>
     </section>
 
     <section id="kalendarz">
         <h2>📅 Zarezerwuj termin</h2>
-        <p>Wybierz dogodny termin, a ja skontaktuję się z Tobą, by potwierdzić szczegóły.</p>
         <form action="https://formsubmit.co/prostopomagam@gmail.com" method="POST">
             <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required />
             <input type="email" name="Email" placeholder="Twój email" required />
@@ -89,36 +90,18 @@
     </section>
 
     <footer>
+        <div class="footer-links">
+            <a href="#o-mnie">O mnie</a> |
+            <a href="#oferta">Oferta</a> |
+            <a href="#cennik">Cennik</a> |
+            <a href="#kontakt">Kontakt</a>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/pisane_z_lekkoscia_eventy/" target="_blank">📸 Instagram</a>
+            <a href="mailto:prostopomagam@gmail.com">✉️ E-mail</a>
+            <a href="tel:536332984">📞 Telefon</a>
+        </div>
         <p>&copy; 2025 Pisane z lekkością</p>
     </footer>
-
-    <div id="lightbox" class="lightbox">
-        <span class="close">&times;</span>
-        <img class="lightbox-content" id="lightbox-img" alt="Zdjęcie w powiększeniu">
-    </div>
-
-    <script>
-        const lightbox = document.getElementById('lightbox');
-        const lightboxImg = document.getElementById('lightbox-img');
-        const closeBtn = document.querySelector('.close');
-
-        document.querySelectorAll('.gallery-img').forEach(img => {
-            img.addEventListener('click', () => {
-                lightbox.style.display = 'block';
-                lightboxImg.src = img.src;
-                lightboxImg.alt = img.alt;
-            });
-        });
-
-        closeBtn.addEventListener('click', () => {
-            lightbox.style.display = 'none';
-        });
-
-        lightbox.addEventListener('click', (e) => {
-            if (e.target === lightbox) {
-                lightbox.style.display = 'none';
-            }
-        });
-    </script>
 </body>
 </html>
