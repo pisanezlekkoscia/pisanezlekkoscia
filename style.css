@@ -384,3 +384,37 @@ footer {
     object-fit: cover;
     margin-bottom: 10px;
 }
+#dlaczego-warto {
+  background-color: #fff0f7;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.wartosci-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.wartosc {
+  background-color: #ffffff;
+  border: 1px solid #f3cde8;
+  border-radius: 10px;
+  padding: 20px;
+  width: 260px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.wartosc:hover {
+  transform: translateY(-4px);
+}
+
+.wartosc .ikona {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 10px;
+  color: #c55ea1;
+}
