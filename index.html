@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="logo-container">
-            <img src="images/loogo.png" alt="Logo Pisane z lekkością" />
+            <img src="images/logo.png" alt="Logo Pisane z lekkością" />
         </div>
         <h1>Dla Ciebie, dla Was...</h1>
         <nav>
@@ -40,41 +40,6 @@
         </div>
     </header>
 
-    <section id="hero">
-        <h2>Tworzę wyjątkowe chwile i słowa z duszą</h2>
-        <p>Organizuję wydarzenia i piszę na każdą okazję</p>
-    </section>
-
-    <section id="o-mnie">
-        <h2>O mnie</h2>
-        <p>Nazywam się Patrycja i uwielbiam tworzyć piękne rzeczy – zarówno wizualnie, jak i słownie. Organizuję wydarzenia oraz piszę teksty z lekkością i pasją, które zapadają w pamięć.</p>
-    </section>
-
-    <section id="oferta">
-        <h2>Oferta</h2>
-        <ul>
-            <li>Organizacja imprez: wieczory panieńskie, kawalerskie, baby shower, urodziny, spotkania rodzinne</li>
-            <li>Teksty: zaproszenia, przemowy, wiersze, bileciki, dedykacje, dyplomy</li>
-            <li>Pomoc w organizacji kalendarza spotkań</li>
-        </ul>
-    </section>
-
-    <section id="opinie">
-        <h2>Opinie</h2>
-        <blockquote>"Współpraca z Patrycją to czysta przyjemność! Wszystko było dopięte na ostatni guzik." – Anna</blockquote>
-        <blockquote>"Tekst na zaproszeniu wzruszył wszystkich gości. Polecam z całego serca!" – Kasia</blockquote>
-        <blockquote>"Pisane z lekkością to był strzał w 10. Cała organizacja wieczoru panieńskiego wyszła super. Zero stresu i nerwów." – Jagoda Walczyk</blockquote>
-    </section>
-
-    <section id="galeria">
-        <h2>Galeria</h2>
-        <div class="gallery">
-            <a href="images/galeria1.jpg" target="_blank"><img src="images/galeria1.jpg" alt="Galeria 1" class="gallery-img" /></a>
-            <a href="images/galeria2.jpg" target="_blank"><img src="images/galeria2.jpg" alt="Galeria 2" class="gallery-img" /></a>
-            <a href="images/galeria3.jpg" target="_blank"><img src="images/galeria3.jpg" alt="Galeria 3" class="gallery-img" /></a>
-        </div>
-    </section>
-
     <section id="jak-dzialam">
       <h2>Jak działam?</h2>
       <div class="etapy-wspolpracy">
@@ -95,6 +60,19 @@
           <p>Przekazuję Ci gotowy efekt – teksty, plan wydarzenia, dekoracje lub pełną realizację. Ty tylko się cieszysz!</p>
         </div>
       </div>
+    </section>
+
+    <section id="kalendarz">
+        <h2>📅 Zarezerwuj termin</h2>
+        <p>Wybierz dogodny termin, a ja skontaktuję się z Tobą, by potwierdzić szczegóły.</p>
+        <form action="https://formsubmit.co/prostopomagam@gmail.com" method="POST">
+            <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required />
+            <input type="email" name="Email" placeholder="Twój email" required />
+            <input type="date" name="Data spotkania" required />
+            <input type="time" name="Godzina spotkania" required />
+            <textarea name="Dodatkowe informacje" placeholder="Co chciałabyś/chciałbyś omówić?" required></textarea>
+            <button type="submit">Zarezerwuj termin</button>
+        </form>
     </section>
 
     <section id="kontakt">
