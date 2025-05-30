@@ -340,3 +340,47 @@ footer {
 .cennik-box a:hover {
   background-color: #b03a74;
 }
+#opinie {
+    background-color: #fff6fb;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.opinie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.opinia-box {
+    background-color: #ffffff;
+    border: 1px solid #f2d3e2;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.opinia-box blockquote {
+    font-style: italic;
+    margin: 15px 0;
+    color: #5a2e4f;
+}
+
+.opinia-autor {
+    font-weight: bold;
+    text-align: right;
+    color: #c55ea1;
+    margin-top: 10px;
+}
+
+.opinia-foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
