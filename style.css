@@ -314,3 +314,43 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.cennik-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cennik-box {
+  background-color: #fff6fb;
+  border: 1px solid #f3d7e6;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.cennik-box:hover {
+  transform: scale(1.02);
+}
+
+.cennik-box h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #d04a89;
+}
+
+.cennik-box a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #d04a89;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cennik-box a:hover {
+  background-color: #b03a74;
+}
