@@ -510,3 +510,23 @@ footer {
 #newsletter button:hover {
   background-color: #cc6ea9;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 220px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #eee;
+}
+
+.dropdown-content li a {
+  color: #444
