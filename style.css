@@ -620,3 +620,54 @@ footer {
 #kalendarz button:hover {
   background-color: #b03a74;
 }
+#kontakt {
+  padding: 40px 20px;
+  background-color: #fff0f5;
+  text-align: center;
+}
+
+#kontakt h2 {
+  color: #c55ea1;
+  margin-bottom: 20px;
+}
+
+#kontakt p {
+  margin: 5px 0;
+}
+
+#kontakt a {
+  color: #a75d67;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#kontakt form {
+  max-width: 600px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#kontakt input,
+#kontakt textarea {
+  padding: 10px;
+  border: 1px solid #ffc9da;
+  border-radius: 5px;
+  font-family: inherit;
+  background-color: #fffafc;
+}
+
+#kontakt button {
+  background-color: #d04a89;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#kontakt button:hover {
+  background-color: #b03a74;
+}
