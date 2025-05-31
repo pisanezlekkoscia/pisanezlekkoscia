@@ -40,3 +40,51 @@
   margin-top: 10px;
   color: #444;
 }
+#kalendarz {
+  padding: 40px 20px;
+  background-color: #fff6fb;
+  border-top: 1px solid #f3d7e6;
+  margin-top: 40px;
+}
+
+#kalendarz h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #c55ea1;
+  text-align: center;
+}
+
+#kalendarz p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#kalendarz form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#kalendarz input,
+#kalendarz textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+#kalendarz button {
+  padding: 12px;
+  background-color: #d04a89;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#kalendarz button:hover {
+  background-color: #b03a74;
+}
