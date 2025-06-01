@@ -745,3 +745,9 @@ footer .footer-links li a:hover {
 #dodaj-opinie button:hover {
   background-color: #b03a74;
 }
+.link-opinia {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 15px;
+  color: #a75d67;
+}
