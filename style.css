@@ -671,3 +671,30 @@ footer {
 #kontakt button:hover {
   background-color: #b03a74;
 }
+footer {
+  background-color: #ffe3ec;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer .footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+footer .footer-links li a {
+  color: #a94a7c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .footer-links li a:hover {
+  text-decoration: underline;
+}
